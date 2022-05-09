@@ -75,3 +75,32 @@ for (i = 0; i > groceryCart.length; i++) {
 for (i = 0; i <= 5; i++) {
     console.log(groceryCart[i])
 }
+
+// ('${var[i]} egg whites')
+
+console.log(groceryCart)
+
+//due to bread getting smooshed easily we need to add it to the grocery cart but at the begginning of the equation
+
+groceryCart.unshift('bread')
+
+console.log(groceryCart)
+
+console.log('why is this not working')
+
+for (i = 0; i < groceryCart.length; i++) {
+    console.log(groceryCart[i])
+}
+
+//jonathan doest need any more gummies. without using splice remove gummies from the grocery cart
+
+groceryCart.pop()
+
+console.log(groceryCart)
+
+let x = 10
+
+while (x < 50) {
+    console.log('x is small.')
+    x += 1
+}
