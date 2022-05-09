@@ -42,3 +42,36 @@ numsArr.splice(0, 1,'stupid', 'amazing')
 
 console.log(numsArr)
 
+// Jonathan needs to go to the grocery story because he forgot to get some paper towls, Chips and toilet paper. Created a variable called grocery cart, that is equal to an empty array so Jonathan can have something to put all of his items in.
+
+let groceryCart = []
+
+groceryCart.push('toilet paper', 'chips', 'paper towls')
+
+console.log(groceryCart)
+
+// Jonathan realized that he did not need toilet paper after all so in a hurry he rushes to go take it back.
+
+groceryCart.splice(0, 1)
+
+console.log(groceryCart)
+
+//Now Jonathan remebered that he was supposed to get milk, eggs, bacon, sparkling water, chicken nuggets and gummies. Add these items to the grocery cart.
+
+groceryCart.push("milk", 'eggs', 'bacon', 'sparkling water', 'chicken nuggets', 'gummies')
+
+console.log(groceryCart)
+
+//Jonathan no longer needs eggs but needs some egg whites. Take out the eggs and add some egg whites to the grocery cart.
+
+groceryCart.splice(3, 1, 'egg whites')
+
+console.log(groceryCart)
+
+for (i = 0; i > groceryCart.length; i++) {
+    console.log(groceryCart[i])
+}
+
+for (i = 0; i <= 5; i++) {
+    console.log(groceryCart[i])
+}
